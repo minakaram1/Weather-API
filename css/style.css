@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #1e202b;
+}
+
+.navbar {
+  background-color: #1E202B;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+.navbar-brand .logo-text h4 {
+  font-size: 16px;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid transparent;
+  border-radius: 40px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler:hover {
+  border-color: #009ad8;
+}
+
+.navbar-brand .logo-text p {
+  font-size: 10px;
+  color: #bfc1c8;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.nav-link {
+  border: 2px solid transparent;
+  padding: 5px 25px;
+  border-radius: 30px;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  border-color: #009ad8;
+  color: #009ad8 !important;
+}
+
+.banner {
+  background-image: url(../img/banner.png);
+  min-height: 350px;
+}
+
+.banner .form-control,
+.footer-boxs .form-control {
+  background-color: #1e202b;
+  border-radius: 30px;
+  box-shadow: none;
+  border: none;
+}
+
+.banner .btn,
+.footer-boxs .btn {
+  background-color: #009ad8;
+  border-radius: 30px;
+  box-shadow: none;
+  border: none;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+}
+
+section.weather {
+  margin-top: -150px;
+}
+
+.weather-boxs .row {
+  border-radius: 10px;
+  background-color: #323544;
+}
+
+.weather-box .weather-box-head {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.col-12:first-of-type .weather-box .weather-box-head {
+  border-radius: 10px 0 0 0;
+}
+
+.col-12:nth-of-type(2) {
+  background-color: #262936;
+}
+
+.col-12:last-of-type .weather-box .weather-box-head {
+  border-radius: 0 10px 0 0;
+}
+
+.weather-box .weather-box-head h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bfc1c8;
+}
+
+.weather-box .weather-box-body .city {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #bfc1c8;
+}
+
+.weather-box .weather-box-body .degree {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 135px;
+  color: #fff;
+}
+
+.weather-box .weather-box-body .degree-img {
+  width: 90px;
+}
+
+.weather-box .weather-box-body .weather {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #009ad8;
+}
+
+.weather-box .weather-box-body .weather-descs .weather-desc span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bfc1c8;
+}
+
+.weather-box .weather-box-body.tomorrow .degree-img,
+.weather-box .weather-box-body.after-tomorrow .degree-img {
+  width: 50px;
+}
+
+.weather-box .weather-box-body.tomorrow .degree,
+.weather-box .weather-box-body.after-tomorrow .degree {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.weather-box .weather-box-body.tomorrow .min-degree,
+.weather-box .weather-box-body.after-tomorrow .min-degree {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bfc1c8;
+}
+
+footer {
+  background-color: #262936;
+}
+
+.footer-icons .footer-icon a {
+  width: 40px;
+  height: 40px;
+  background-color: #1e202b;
+  color: #009ad8;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-icons .footer-icon a:hover {
+  background-color: #009ad8;
+  color: #fff;
+
+}
+
+.footer-text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bfc1c8;
+}
